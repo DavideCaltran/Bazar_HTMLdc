@@ -1,0 +1,132 @@
+.navbarCss{
+    
+    
+    height: 50px;
+    width: 100%;
+    top: 0;
+    
+    
+    position:fixed;
+}
+
+.navbarLinks{
+    
+    list-style-type:none;
+    
+    background: linear-gradient(265deg, rgba(167,0,251,1) 23%, rgba(0,0,0,0.9540266790309874) 81%), url(https://cdn.pixabay.com/photo/2019/01/02/04/09/background-3907989_1280.jpg);
+    
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    
+}
+
+.imgNav{
+    
+    width: 110px;
+    left: 0px;
+    height: 50px;
+}
+
+.ancoreNav{
+    
+    
+    text-decoration: none;
+    
+    color: white;
+    font-weight: bold;
+}
+
+header{
+
+    height: 100vh;
+    width: 100%;
+    margin-top: 90px;
+    
+    
+
+    
+}
+
+h1{
+
+    color: black;
+
+}
+
+.boxHeader{
+
+
+    background-color: darkorchid;
+
+    height: 330px;
+
+    width: 250px;
+    
+    border: solid 5px black;
+    
+    
+}
+
+.papaBoxHead{
+
+
+    margin-top: 90px;
+}
+
+.boxHeaderNipote{
+
+
+    position: absolute;
+
+    height: 170px;
+
+    width: 170px;
+
+    background-color: black;
+
+    border-radius: 20%;
+
+    border: solid 4px rgb(247, 247, 247);
+
+    background-image: url(https://img.freepik.com/premium-photo/space-background-with-planets-nebula_104785-1051.jpg);
+    background-size: cover;
+}
+
+
+.boxHeaderNipote:hover{
+
+    border:solid 5px blue ;
+
+    transition: 1s;
+}
+
+h2{
+
+    margin-top: 170px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr{
+
+    border: solid 3px darkblue;
+
+    width: 190px;
+
+    opacity: 3;
+}
+
+.ancoreBox{
+
+
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    
+}
+
+.ancoreBox:active{
+
+    color: white;
+
+}
