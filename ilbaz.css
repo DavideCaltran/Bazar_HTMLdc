@@ -39,9 +39,13 @@
 
 header{
 
+    
+    margin-top: 50px;
     height: 100vh;
     width: 100%;
-    margin-top: 90px;
+    
+    background-image: url(https://img.wallpapic.it/i8742-343-727/medium/spazio-luna-universo-notte-sfondo.jpg);
+    background-size: cover;
     
     
 
@@ -50,9 +54,14 @@ header{
 
 h1{
 
-    color: black;
-
+    color: rgb(255, 255, 255);
+   
+    
+    
+   
 }
+
+
 
 .boxHeader{
 
@@ -71,13 +80,52 @@ h1{
 .papaBoxHead{
 
 
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
-.boxHeaderNipote{
 
 
-    position: absolute;
+.boxHeaderNipote1{
+
+
+    position: relative;
+
+    height: 170px;
+
+    width: 170px;
+
+    background-color: black;
+
+    border-radius: 20%;
+    background-image: url(https://dday.imgix.net/system/uploads/news/main_image/45223/ce9659_cove_rApple_iphone13_design_09142021.jpg.og_copia.jpg?ar=702%3A360&fit=crop&auto=format%2Ccompress&s=4e5b1e4eb07ee1297fdce9a2321d4752);
+
+    border: solid 4px rgb(247, 247, 247);
+
+
+    background-size: cover;
+}
+
+.boxHeaderNipote2{
+
+
+    position: relative;
+
+    height: 170px;
+
+    width: 170px;
+
+    background-color: black;
+
+    border-radius: 20%;
+
+    border: solid 4px rgb(247, 247, 247);
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+}
+.boxHeaderNipote3{
+
+
+    position: relative;
 
     height: 170px;
 
@@ -89,12 +137,41 @@ h1{
 
     border: solid 4px rgb(247, 247, 247);
 
-    background-image: url(https://img.freepik.com/premium-photo/space-background-with-planets-nebula_104785-1051.jpg);
+    background-image: url(https://media.gqitalia.it/photos/64046d4d0ae65816ba59c92a/16:9/w_2560%2Cc_limit/iphone_case.jpg);
+
+
     background-size: cover;
 }
 
+.boxheaderNipoterel{
 
-.boxHeaderNipote:hover{
+    height: 170px;
+
+    width: 170px;
+
+    background-color: aquamarine;
+
+
+
+}
+
+
+
+.boxHeaderNipote1:hover{
+
+    border:solid 5px blue ;
+
+    transition: 1s;
+}
+
+
+.boxHeaderNipote2:hover{
+
+    border:solid 5px blue ;
+
+    transition: 1s;
+}
+.boxHeaderNipote3:hover{
 
     border:solid 5px blue ;
 
@@ -130,3 +207,149 @@ hr{
     color: white;
 
 }
+
+
+.boxdet1{
+    margin-top: 60px;
+
+    height: 240px;
+    width: 260px;
+    background-color: white;
+
+    padding:2px;
+
+    border: dashed 5px rgb(255, 0, 238);
+
+    background-image: url(https://img.tuttoandroid.net/wp-content/uploads/2022/12/tanti_smartphone_2022_tta_2.jpg);
+    background-size: cover;
+}
+
+.boxdet2{
+    margin-top: 60px;
+
+    height: 240px;
+    width: 260px;
+    background-color: white;
+
+    padding:2px;
+
+    border: dashed 5px rgb(255, 0, 238);
+    background-image: url(https://www.rstore.it/media/catalog/product/cache/bb5991ed8856d22ce5c275e41c5f78f9/i/p/iphone_15_pro_max.jpg);
+    background-size: cover;
+    
+}
+
+
+.boxdet2:hover{
+
+    border: solid 8px rgb(53, 13, 53);
+    transition: 1s;
+}
+
+.boxdet1:hover{
+
+    border: solid 8px rgb(53, 13, 53);
+    transition: 1s;
+}
+
+
+
+.ancoreIndietro{
+
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.ancoreIndietro:active{
+
+    color: red;
+
+
+}
+
+.boxdet12{
+    margin-top: 60px;
+
+    height: 240px;
+    width: 260px;
+    background-color: white;
+
+    padding:2px;
+
+    border: dashed 5px rgb(255, 0, 238);
+
+    background-image: url(https://m.media-amazon.com/images/I/51ce6fmDdOL._AC_UF1000,1000_QL80_.jpg);
+    background-size: cover;
+}
+
+.boxdet22{
+    margin-top: 60px;
+
+    height: 240px;
+    width: 260px;
+    background-color: white;
+
+    padding:2px;
+
+    border: dashed 5px rgb(255, 0, 238);
+
+    background-image: url(https://www.toysin.it/files/SGL_Files/Foto/499832_2.JPG);
+    background-size: cover;
+}
+
+.boxdet12:hover{
+
+    border: solid 8px rgb(53, 13, 53);
+    transition: 1s;
+}
+
+.boxdet22:hover{
+
+    border: solid 8px rgb(53, 13, 53);
+    transition: 1s;
+}
+
+.boxdet13{
+    margin-top: 60px;
+
+    height: 240px;
+    width: 260px;
+    background-color: white;
+
+    padding:2px;
+
+    border: dashed 5px rgb(255, 0, 238);
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw2OOB1mzOplzWPjsdthAjb5UrNR2Q2NR_ug&usqp=CAU);
+    background-size: cover;
+}
+.boxdet23{
+    margin-top: 60px;
+
+    height: 240px;
+    width: 260px;
+    background-color: white;
+
+    padding:2px;
+
+    border: dashed 5px rgb(255, 0, 238);
+
+    background-image: url(https://www.gamesoul.it/wp-content/uploads/2018/02/nokia-1-mwc-18.jpg);
+    background-size: cover;
+}
+
+.boxdet13:hover{
+
+    border: solid 8px rgb(53, 13, 53);
+    transition: 1s;
+}
+
+.boxdet23:hover{
+
+    border: solid 8px rgb(53, 13, 53);
+    transition: 1s;
+}
+
+
